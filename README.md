@@ -95,37 +95,73 @@ Generación de mapa de calor de distancias entre átomos Cα.
 | **Loop Ω** | Residuos 70-85 (región flexible) | ¿Captura la flexibilidad? |
 | **Conservación evolutiva** | Altamente conservada | Excelente para estudios comparativos |
 
-## Requisitos
+## Configuración del Entorno y Ejecución
 
+### Requisitos del Sistema
+- Python 3.9 o superior
+- pip (gestor de paquetes de Python)
+- Jupyter Notebook (opcional, para ejecutar el notebook)
+
+### Instalación
+
+#### 1. Crear Entorno Virtual
 ```bash
+# Navegar al directorio del proyecto
+cd alphafold-pymol
+
+# Crear entorno virtual
+python3 -m venv venv
+
+# Activar el entorno virtual
+source venv/bin/activate  # En macOS/Linux
+# o
+venv\Scripts\activate     # En Windows
+```
+
+#### 2. Instalar Dependencias
+```bash
+# Con el entorno virtual activado
 pip install biopython
 pip install py3Dmol
 pip install matplotlib
 pip install numpy
+pip install jupyter  # Si deseas usar Jupyter Notebook
 ```
 
-## Recursos
+#### 3. Verificar Instalación
+```bash
+python -c "import Bio; print('Biopython:', Bio.__version__)"
+python -c "import numpy; print('NumPy:', numpy.__version__)"
+python -c "import matplotlib; print('Matplotlib:', matplotlib.__version__)"
+```
 
-- **AlphaFold Database**: https://alphafold.ebi.ac.uk/entry/P99999
-- **UniProt**: https://www.uniprot.org/uniprotkb/P99999
-- **PDB (1HRC)**: https://www.rcsb.org/structure/1HRC
-- **Descarga directa PDB experimental**: https://files.rcsb.org/download/1HRC.pdb
-- **Descarga AlphaFold**: https://alphafold.ebi.ac.uk/files/AF-P99999-F1-model_v4.pdb
+### Ejecución de Ejercicios
 
-## Cómo Usar
+#### Opción 1: Scripts Python Individuales
+```bash
+# Activar entorno virtual
+source venv/bin/activate
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/giselabcruz/alphafold-pymol.git
-   cd alphafold-pymol
-   ```
+# Ejecutar ejercicio específico (ejemplo)
+python bloque1_descarga_secuencia.py
+```
 
-2. Abre el notebook:
-   ```bash
-   jupyter notebook alphafold-exercises.ipynb
-   ```
+#### Opción 2: Jupyter Notebook
+```bash
+# Activar entorno virtual
+source venv/bin/activate
 
-3. Sigue los ejercicios secuencialmente en el notebook.
+# Iniciar Jupyter Notebook
+jupyter notebook
+
+# Abrir alphafold-exercises.ipynb en el navegador
+```
+
+### Solución de Problemas Comunes
+
+- **Error "ModuleNotFoundError":** Asegúrate de tener activado el entorno virtual (`source venv/bin/activate`).
+- **Error "externally-managed-environment":** Evita instalar paquetes globalmente; usa siempre el entorno virtual como se indica arriba.
+
 
 ## Resultados Esperados
 
