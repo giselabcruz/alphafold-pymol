@@ -2,7 +2,7 @@
 
 Este repositorio contiene ejercicios prácticos para el análisis de estructuras de proteínas utilizando **AlphaFold** y **PyMOL**, enfocándose en la comparación entre predicciones computacionales y estructuras experimentales.
 
-## 🧬 Proteína de Estudio: Cytochrome c (CYCS)
+## Proteína de Estudio: Cytochrome c (CYCS)
 
 <div align="center">
   <img src="images/cytochrome_c_structure.png" width="500">
@@ -55,13 +55,13 @@ alphafold-pymol/
 
 Este proyecto tiene como objetivo:
 
-- ✅ Descargar y analizar secuencias de proteínas desde UniProt
-- ✅ Obtener predicciones estructurales de AlphaFold
-- ✅ Visualizar estructuras 3D con py3Dmol y PyMOL
-- ✅ Analizar la confianza de predicción mediante valores pLDDT
-- ✅ Comparar predicciones con estructuras experimentales (RMSD)
-- ✅ Generar mapas de distancias internas
-- ✅ Identificar regiones flexibles y sitios activos
+- Descargar y analizar secuencias de proteínas desde UniProt
+- Obtener predicciones estructurales de AlphaFold
+- Visualizar estructuras 3D con py3Dmol y PyMOL
+- Analizar la confianza de predicción mediante valores pLDDT
+- Comparar predicciones con estructuras experimentales (RMSD)
+- Generar mapas de distancias internas
+- Identificar regiones flexibles y sitios activos
 
 ## Ejercicios Incluidos
 
@@ -98,7 +98,6 @@ Generación de mapa de calor de distancias entre átomos Cα.
 ## Requisitos
 
 ```bash
-# Instalación de dependencias
 pip install biopython
 pip install py3Dmol
 pip install matplotlib
