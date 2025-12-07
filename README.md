@@ -1,5 +1,9 @@
 # AlphaFold & PyMOL - Análisis de Proteínas
 
+
+Repositorio en GitHub: [https://github.com/giselabcruz/alphafold-pymol](https://github.com/giselabcruz/alphafold-pymol)
+---
+
 Este repositorio contiene ejercicios prácticos para el análisis de estructuras de proteínas utilizando **AlphaFold** y **PyMOL**, enfocándose en la comparación entre predicciones computacionales y estructuras experimentales.
 
 ## Proteína de Estudio: Cytochrome c (CYCS)
