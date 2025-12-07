@@ -204,38 +204,6 @@ Este proyecto tiene como objetivo:
 - pip (gestor de paquetes de Python)
 - Jupyter Notebook (opcional, para ejecutar el notebook)
 
-### Instalación
-
-#### 1. Crear Entorno Virtual
-```bash
-# Navegar al directorio del proyecto
-cd alphafold-pymol
-
-# Crear entorno virtual
-python3 -m venv venv
-
-# Activar el entorno virtual
-source venv/bin/activate  # En macOS/Linux
-# o
-venv\Scripts\activate     # En Windows
-```
-
-#### 2. Instalar Dependencias
-```bash
-# Con el entorno virtual activado
-pip install biopython
-pip install py3Dmol
-pip install matplotlib
-pip install numpy
-pip install jupyter  # Si deseas usar Jupyter Notebook
-```
-
-#### 3. Verificar Instalación
-```bash
-python -c "import Bio; print('Biopython:', Bio.__version__)"
-python -c "import numpy; print('NumPy:', numpy.__version__)"
-python -c "import matplotlib; print('Matplotlib:', matplotlib.__version__)"
-```
 
 ### Ejecución de Ejercicios
 
