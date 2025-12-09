@@ -9,7 +9,7 @@ Este repositorio contiene ejercicios prácticos para el análisis de estructuras
 ## Proteína de Estudio: Cytochrome c (CYCS)
 
 <div align="center">
-  <img src="images/cytochrome_c_structure.png" width="500">
+  <img src="cytochrome_c_structure.png" width="500">
   <p><i>Estructura 3D del Cytochrome c mostrando α-hélices y el grupo heme</i></p>
 </div>
 
@@ -31,7 +31,7 @@ Este repositorio contiene ejercicios prácticos para el análisis de estructuras
 ### Función Biológica
 
 <div align="center">
-  <img src="images/cytochrome_c_function.png" width="500">
+  <img src="cytochrome_c_function.png" width="500">
   <p><i>Función del Cytochrome c en la cadena de transporte de electrones</i></p>
 </div>
 
